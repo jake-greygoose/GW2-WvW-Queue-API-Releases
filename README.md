@@ -41,7 +41,7 @@ The following events are provided. The payload is `QueueEventData*`.
 #define EV_WVW_QUEUE_UPDATED   "EV_WVW_QUEUE_UPDATED"
 #define EV_WVW_QUEUE_POPPED    "EV_WVW_QUEUE_POPPED"
 #define EV_WVW_QUEUE_LEFT      "EV_WVW_QUEUE_LEFT"
-#define EV_WVW_QUEUE_ENTERED   "EV_WVW_QUEUE_ENTERED"
+#define EV_WVW_QUEUE_ENTERED   "EV_WVW_QUEUE_ENTERED" // Upon entering the map you are queued for
 #define EV_WVW_TOTALS_UPDATED  "EV_WVW_TOTALS_UPDATED" // Payload is GlobalTotals*
 ```
 
